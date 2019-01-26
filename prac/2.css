@@ -1,0 +1,105 @@
+body{
+    margin:0;
+    background-color:#eee;
+    padding:0;
+    list-style-type:none;
+    display:block;
+   
+}
+#toolbar{
+    position:fixed;
+}
+
+#page1{
+   
+    margin:0 ;
+    background-color:black;
+    
+}
+#toolbar h1{
+    color:red;
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+    padding:20px;
+    margin:0;
+    width:50%;
+    float:left;
+    
+}
+#toolbar{
+    background-color:#181818;
+    width:100%;
+    height:90px;
+}
+#toolbar nav ul li{
+   float:left;
+    display:inline-block;
+    padding-top:30px;
+    padding-left:30px;
+    font-size:20px;
+   
+   
+}
+#toolbar nav ul{
+     border-right:10px;
+    border-color:red;
+    margin:0;
+}
+#toolbar nav ul li a{
+    text-decoration:none;
+    text-transform:uppercase;
+    color:#fff;
+}
+.home{
+     background-color:#af746c;
+     border-radius:3px;
+}
+#page1:after{
+    content:"";
+    clear:both;
+    display:block;
+     
+}
+.banner img{
+    width:100%;
+    margin:0px;
+    height:600px;
+
+}
+.about h1{
+    margin:10px;
+    border-left:10px solid green; 
+    color:#fff;
+    padding-left:15px;
+     margin-top:50px;
+}
+.about p{
+    padding-top:30px;
+    color:tomato;
+    font-size:45px;
+    margin:10px;
+}
+.photos img{
+     width:100%;
+     padding-left:15px;
+}
+.photos h1{
+    
+    border-left:10px solid green; 
+    color:#fff;
+    padding-left:15px;
+    margin:50px 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

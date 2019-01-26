@@ -1,0 +1,145 @@
+body{
+    margin:0;
+    background-color:black;
+}
+.yo{
+    margin-left:500px;
+    width:400px;
+    text-align:center;
+    position:relative;
+    top:200px;
+    animation:show 6s ease-in forwards;
+}
+.yo h1{
+    font-family:Cambria;
+    color:gold;
+    font-size:50px;
+    margin-bottom:0px;
+    color:white;
+}
+.yo h2{
+    font-family:Comic Sans MS;
+    color:rgb(7,182,248);
+    transform-origin:130px 20px;
+    font-size:40px;
+    margin-top:10px;
+    animation:fall 2s 3s ease-out forwards;
+}
+#popup{
+    background-color:beige;
+    text-align:center;
+    margin:0 auto;
+    width:400px;
+    padding:30px;
+    position:relative;
+    top:200px;
+    border-radius:6px;
+}
+.x{
+    background-color:#555;
+    width:5%;
+    position:absolute;
+    top:10px;
+    left:10px;
+    border-radius:15px;
+    font-weight:bolder;
+    color:#ddd;
+    cursor:pointer;
+}
+.intro p{
+    font-weight:bolder;
+    font-size:medium;
+    margin-right:5px;
+    margin-top:0px;
+}
+.intro h1{
+     margin-top:0px;
+     color:tomato;
+     margin-bottom:5px;
+}
+#name{
+    margin-top:20px;
+    border-top-left-radius:6px;
+    border-bottom-left-radius:6px;
+    width:200px;
+    height:30px;
+    margin-left:20px;
+    margin-bottom:20px;
+}
+.info span{
+    background-color:#333;
+    padding:9px;
+    color:#fff;
+    margin-left:0px;
+    border-top-right-radius:6px;
+    border-bottom-right-radius:6px;
+    cursor:pointer;
+   
+}
+.info{
+    margin-right:25px;
+}
+#popup{
+    top:-400px;
+    transform-origin:10px 10px;
+    animation:drop 0.7s 0.5s ease forwards,
+              swing 2s 1.65s ease forwards;
+}
+@keyframes drop{
+    0%{opacity:0}
+    70%{ transform: translateY(500px);}
+    100%{ transform: translateY(400px); opacity:1;}
+    }
+@keyframes swing{
+    0%{transform:translateY(400px) rotate(0deg)}
+    40%{transform:translateY(400px) rotate(90deg)}
+    70%{transform:translateY(400px) rotate(70deg)}
+    100%{transform:translateY(400px) rotate(75deg)}
+}
+@keyframes show{
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+@keyframes fall{
+    0%{transform:rotate(0deg)}
+    40%{transform:rotate(90deg)}
+    50%{transform:rotate(0deg)}
+    60%{transform:rotate(0deg)}
+    70%{transform:rotate(0deg)}
+    80%{transform:rotate(0deg)}
+    90%{transform:rotate(0deg)}
+    100%{transform:rotate(15deg)}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
